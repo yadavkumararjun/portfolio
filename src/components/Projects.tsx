@@ -11,7 +11,11 @@ interface Project {
   featured: boolean
 }
 
-export default function Projects(): JSX.Element {
+interface ProjectsProps {
+  id?: string
+}
+
+export default function Projects({ id }: ProjectsProps): JSX.Element {
   const projects: Project[] = [
     {
       title: 'E-Commerce Platform',

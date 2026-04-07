@@ -1,9 +1,13 @@
-import { Book, Briefcase, Award, MapPin, Phone, Mail as MailIcon, Linkedin, Github } from 'lucide-react'
+import { Book, Briefcase, Award, MapPin, Phone, Mail as MailIcon, Linkedin } from 'lucide-react'
 import '../styles/About.css'
 
-export default function About(): JSX.Element {
+interface AboutProps {
+  id?: string
+}
+
+export default function About({ id }: AboutProps): JSX.Element {
   return (
-    <section className="about" id="about">
+    <section className="about" id={id}>
       <h2>About Me</h2>
 
       <div className="about-content">

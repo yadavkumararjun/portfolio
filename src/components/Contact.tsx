@@ -3,10 +3,11 @@ import { Mail, Phone, MapPin, Send, Linkedin, Github } from 'lucide-react'
 import '../styles/Contact.css'
 
 interface ContactProps {
+  id?: string
   setActiveSection: (section: string) => void
 }
 
-export default function Contact({ setActiveSection }: ContactProps): JSX.Element {
+export default function Contact({ id }: ContactProps): JSX.Element {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -38,7 +39,7 @@ export default function Contact({ setActiveSection }: ContactProps): JSX.Element
   }
 
   return (
-    <section className="contact" id="contact">
+    <section className="contact" id={id}>
       <h2>Let's Connect</h2>
 
       <div className="contact-content">
