@@ -116,7 +116,7 @@ The workflow file (`.github/workflows/deploy.yml`) handles automatic deployment.
 - **Email**: kumararjunyadav9326@gmail.com
 - **Phone**: +91 8779474566
 - **LinkedIn**: [arjun-kumar-yadav-4ab3a2323](https://linkedin.com/in/arjun-kumar-yadav-4ab3a2323)
-- **GitHub**: [arjunky](https://github.com/yadavkumararjun)
+- **GitHub**: [yadavkumararjun](https://github.com/yadavkumararjun)
 
 ## 🎓 About Me
 
@@ -137,5 +137,5 @@ This project is open source and available under the MIT License.
 
 **Arjun Kumar Yadav**
 - Email: kumararjunyadav9326@gmail.com
-- GitHub: [@arjunky](https://github.com/yadavkumararjun)
+- GitHub: [@yadavkumararjun](https://github.com/yadavkumararjun)
 - LinkedIn: [arjun-kumar-yadav-4ab3a2323](https://linkedin.com/in/arjun-kumar-yadav-4ab3a2323) 

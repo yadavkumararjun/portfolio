@@ -38,7 +38,7 @@ export default function Hero({ setActiveSection }: HeroProps): JSX.Element {
 
           <div className="hero-socials">
             <a 
-              href="https://github.com/arjunky" 
+              href="https://github.com/yadavkumararjun" 
               target="_blank" 
               rel="noopener noreferrer"
               title="GitHub"

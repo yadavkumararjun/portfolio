@@ -42,7 +42,7 @@ npm run preview
 
 ### One-Time Setup
 
-1. **Ensure GitHub repo exists**: The portfolio should be in `https://github.com/arjunky/portfolio`
+1. **Ensure GitHub repo exists**: The portfolio should be in `https://github.com/yadavkumararjun/portfolio`
 
 2. **Enable GitHub Pages** (if needed):
    - Go to Settings > Pages
@@ -59,7 +59,7 @@ npm run preview
 4. **Check Deployment**:
    - Go to repository > Actions tab
    - Watch the "Deploy Portfolio to GitHub Pages" workflow
-   - Once complete, visit `https://arjunky.github.io/portfolio`
+   - Once complete, visit `https://yadavkumararjun.github.io/portfolio`
 
 ### Automatic Deployment
 
@@ -178,7 +178,7 @@ npm run build
 ### Site shows 404
 1. Wait 2-3 minutes for deployment
 2. Clear browser cache
-3. Verify site URL: `https://arjunky.github.io/portfolio`
+3. Verify site URL: `https://yadavkumararjun.github.io/portfolio`
 
 ### Styles not loading
 1. Check that CSS files are properly imported

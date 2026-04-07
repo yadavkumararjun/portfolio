@@ -22,7 +22,7 @@ export default function Footer(): JSX.Element {
           <h4>Connect</h4>
           <div className="footer-socials">
             <a 
-              href="https://github.com/arjunky" 
+              href="https://github.com/yadavkumararjun" 
               target="_blank" 
               rel="noopener noreferrer"
               className="footer-social"

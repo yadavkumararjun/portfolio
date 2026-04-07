@@ -19,7 +19,7 @@ export default function Projects(): JSX.Element {
       technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
       image: '🛒',
       featured: true,
-      github: 'https://github.com/arjunky',
+      github: 'https://github.com/yadavkumararjun',
       demo: '#'
     },
     {
@@ -28,7 +28,7 @@ export default function Projects(): JSX.Element {
       technologies: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
       image: '💬',
       featured: true,
-      github: 'https://github.com/arjunky',
+      github: 'https://github.com/yadavkumararjun',
     },
     {
       title: 'Task Management Dashboard',
@@ -36,7 +36,7 @@ export default function Projects(): JSX.Element {
       technologies: ['React', 'TypeScript', 'REST API', 'MongoDB'],
       image: '📋',
       featured: false,
-      github: 'https://github.com/arjunky',
+      github: 'https://github.com/yadavkumararjun',
     },
     {
       title: 'Weather App',
@@ -59,7 +59,7 @@ export default function Projects(): JSX.Element {
       technologies: ['React', 'Node.js', 'Python Backend', 'Docker'],
       image: '💡',
       featured: false,
-      github: 'https://github.com/arjunky',
+      github: 'https://github.com/yadavkumararjun',
     }
   ]
 
@@ -167,7 +167,7 @@ export default function Projects(): JSX.Element {
 
       <div className="projects-cta">
         <p>Interested in my work?</p>
-        <a href="https://github.com/arjunky" target="_blank" rel="noopener noreferrer" className="btn">
+        <a href="https://github.com/yadavkumararjun" target="_blank" rel="noopener noreferrer" className="btn">
           View More on GitHub
         </a>
       </div>

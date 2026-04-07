@@ -97,7 +97,7 @@ git commit -m "Setup professional portfolio"
 git push origin main
 
 # Watch deployment in GitHub Actions tab
-# Site goes live at: https://arjunky.github.io/portfolio
+# Site goes live at: https://yadavkumararjun.github.io/portfolio
 ```
 
 ---
@@ -109,7 +109,7 @@ git push origin main
 - **Phone**: +91 8779474566
 - **Location**: Mumbai, India
 - **LinkedIn**: arjun-kumar-yadav-4ab3a2323
-- **GitHub**: arjunky
+- **GitHub**: yadavkumararjun
 - **Education**: VIT Mumbai, BTech CS, 2nd Year Semester 4
 - **Tech Stack**: HTML5, CSS5, JS, Node, Express, MERN, Python, C++, C, Java
 
@@ -200,7 +200,7 @@ Edit CSS variables in `src/styles/index.css`:
 2. **Workflow checks code** → TypeScript type checking
 3. **Build optimized bundle** → Vite builds dist folder
 4. **Deploy to GitHub Pages** → Pushes to gh-pages branch
-5. **Site goes live** → Available at arjunky.github.io/portfolio
+5. **Site goes live** → Available at yadavkumararjun.github.io/portfolio
 
 **No manual steps needed after first setup!**
 
@@ -252,7 +252,7 @@ npm run build
 
 Your portfolio is ready to go! Just push to GitHub and let the magic happen. Your site will be live at:
 
-**🌐 https://arjunky.github.io/portfolio**
+**🌐 https://yadavkumararjun.github.io/portfolio**
 
 ---
 

@@ -78,7 +78,7 @@ export default function Contact({ setActiveSection }: ContactProps): JSX.Element
 
           <div className="social-links">
             <a 
-              href="https://github.com/arjunky" 
+              href="https://github.com/yadavkumararjun" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link"

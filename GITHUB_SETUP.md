@@ -6,7 +6,7 @@ Before your first deployment, ensure GitHub is properly configured:
 
 ### Repository Settings
 
-- [ ] Repository name is `portfolio` under `arjunky` account
+- [ ] Repository name is `portfolio` under `yadavkumararjun` account
 - [ ] Repository is public (required for GitHub Pages free tier)
 - [ ] Default branch is set to `main` (check Settings > Branches)
 
@@ -29,10 +29,10 @@ Before your first deployment, ensure GitHub is properly configured:
 If you want to use a custom domain:
 
 - [ ] Update `.github/workflows/deploy.yml`:
-  - Change `cname: portfolio.arjunky.dev` to your domain
+  - Change `cname: portfolio.yadavkumararjun.dev` to your domain
   
 - [ ] Configure DNS:
-  - For GitHub Pages CNAME: Create CNAME record pointing to `arjunky.github.io`
+  - For GitHub Pages CNAME: Create CNAME record pointing to `yadavkumararjun.github.io`
   - For GitHub Pages A record: Use GitHub's IPs (see GitHub docs)
   
 - [ ] Verify in GitHub Pages settings:
@@ -66,7 +66,7 @@ git push origin main
 
 Once deployment completes:
 
-- **GitHub Pages URL**: `https://arjunky.github.io/portfolio`
+- **GitHub Pages URL**: `https://yadavkumararjun.github.io/portfolio`
 - **Custom domain** (if configured): Your custom domain
 
 ## 🔄 Continuous Deployment

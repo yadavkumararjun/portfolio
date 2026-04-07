@@ -4,7 +4,7 @@
 
 ### 1. Repository Settings (GitHub Web UI)
 
-1. Go to your repository settings: `https://github.com/arjunky/portfolio/settings`
+1. Go to your repository settings: `https://github.com/yadavkumararjun/portfolio/settings`
 2. Navigate to **Pages** section
 3. Under "Build and deployment":
    - **Source**: GitHub Actions
@@ -12,7 +12,7 @@
 
 ### 2. Custom Domain (Optional)
 
-To use a custom domain like `portfolio.arjunky.dev`:
+To use a custom domain like `portfolio.yadavkumararjun.dev`:
 
 1. Update the `cname` field in `.github/workflows/deploy.yml` (already configured)
 2. Go to GitHub repository Settings > Pages
@@ -28,7 +28,7 @@ The portfolio automatically deploys when you:
 ### 4. Verify Deployment
 
 - Check GitHub Actions tab for workflow status
-- Visit `https://arjunky.github.io/portfolio` to view the live site
+- Visit `https://yadavkumararjun.github.io/portfolio` to view the live site
 - Check repository settings > Pages for the live URL
 
 ## Troubleshooting

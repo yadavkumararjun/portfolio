@@ -51,7 +51,7 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
           ))}
           <li className="nav-item">
             <a 
-              href="https://github.com/arjunky" 
+              href="https://github.com/yadavkumararjun" 
               target="_blank" 
               rel="noopener noreferrer"
               className="nav-link nav-button"
