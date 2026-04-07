@@ -1,0 +1,160 @@
+.about {
+  background: linear-gradient(180deg, rgba(5, 8, 18, 0.5), rgba(0, 102, 255, 0.05));
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-intro p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text);
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(0, 102, 255, 0.1), rgba(0, 212, 255, 0.1));
+  border: 1px solid rgba(0, 102, 255, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 102, 255, 0.15);
+}
+
+.info-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--secondary);
+  flex-shrink: 0;
+  margin-top: 0.3rem;
+}
+
+.info-content h4 {
+  font-size: 1rem;
+  color: var(--light);
+  margin-bottom: 0.3rem;
+}
+
+.info-content p,
+.info-content a {
+  font-size: 0.95rem;
+  color: var(--text);
+  transition: color 0.3s ease;
+}
+
+.info-content a:hover {
+  color: var(--secondary);
+}
+
+.quick-facts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.fact {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(255, 0, 110, 0.05));
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.fact:hover {
+  border-color: var(--secondary);
+  transform: translateX(10px);
+}
+
+.fact-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.fact h4 {
+  font-size: 1.1rem;
+  color: var(--light);
+  margin-bottom: 0.3rem;
+}
+
+.fact p {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 0.3rem;
+}
+
+.fact span {
+  font-size: 0.85rem;
+  color: var(--secondary);
+}
+
+@media (max-width: 1024px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-card {
+    padding: 1rem;
+  }
+
+  .info-content h4 {
+    font-size: 0.9rem;
+  }
+
+  .fact {
+    padding: 1rem;
+  }
+
+  .fact-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .fact h4 {
+    font-size: 1rem;
+  }
+}
