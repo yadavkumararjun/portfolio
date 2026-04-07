@@ -18,9 +18,9 @@ function App(): JSX.Element {
       <main>
         <Hero setActiveSection={setActiveSection} />
         <About id="about" />
-        <Skills id="skills" />
-        <Experience id="experience" />
-        <Projects id="projects" />
+        <Skills />
+        <Experience />
+        <Projects />
         <Contact id="contact" setActiveSection={setActiveSection} />
       </main>
       <Footer />

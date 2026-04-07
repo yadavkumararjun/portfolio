@@ -9,11 +9,7 @@ interface Skill {
   }>
 }
 
-interface SkillsProps {
-  id?: string
-}
-
-export default function Skills({ id }: SkillsProps): JSX.Element {
+export default function Skills(): JSX.Element {
   const skillsData: Skill[] = [
     {
       category: 'Frontend',

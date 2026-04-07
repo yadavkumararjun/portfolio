@@ -10,11 +10,7 @@ interface TimelineItem {
   icon: React.ReactNode
 }
 
-interface ExperienceProps {
-  id?: string
-}
-
-export default function Experience({ id }: ExperienceProps): JSX.Element {
+export default function Experience(): JSX.Element {
   const timeline: TimelineItem[] = [
     {
       type: 'education',
