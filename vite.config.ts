@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/portfolio/',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     sourcemap: false,
     minify: 'terser',
   },

@@ -35,20 +35,4 @@ jobs:
         env:
           CI: true
 
-      - name: Deploy to GitHub Pages
-        if: github.event_name == 'push'
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          cname: portfolio.arjunky.dev
-          user_name: Arjun Kumar Yadav
-          user_email: kumararjunyadav9326@gmail.com
-
-      - name: Upload artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-artifacts
-          path: dist/
-          retention-days: 30
+      # No deploy step needed; GitHub Pages will serve from docs/ on main
